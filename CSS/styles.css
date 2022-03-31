@@ -1,0 +1,16 @@
+body {
+    background-color: slategrey;
+}
+h1 {
+    text-align: center;
+    color: darkturquoise;
+    margin: 50px 300px 0 300px;
+    border: 15px inset salmon;
+    font-family: Verdana;
+}
+
+ul {
+    margin: 0 420px 0 420px;
+    font-family: Verdana;
+    border: 10px inset salmon;
+}
