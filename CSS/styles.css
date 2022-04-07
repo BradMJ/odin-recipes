@@ -1,16 +1,47 @@
-body {
+.box-one {
     background-color: slategrey;
+    max-width: 400px;
 }
-h1 {
-    text-align: center;
+.box-one .head-one {
     color: darkturquoise;
-    margin: 50px 300px 0 300px;
-    border: 15px inset salmon;
+    text-shadow: 2px 2px 2px black;
+    background-color: darkred;
+    margin: -1px -1px 1px -1px;
+    padding: 2px;
     font-family: Verdana;
+    text-align: center;
 }
 
-ul {
-    margin: 0 420px 0 420px;
-    font-family: Verdana;
-    border: 10px inset salmon;
+.box-one :last-child {
+    margin-bottom: 0;
 }
+
+body {
+    background-color: black;
+    padding: 2px;
+    max-width: 400px;
+    margin: 2px auto;
+}
+
+.link-list {
+    display: flex;
+    list-style: none;
+    padding: 2px auto;
+}
+
+a {
+    font-family: Verdana;
+    color: white;
+    padding: 0 10px;
+}
+
+
+/* * {
+    box-sizing: border-box;
+} 
+By default, browsers use the standard box model. 
+If you want to turn on the alternative model 
+for an element, you do so by setting 
+box-sizing: border-box on it. By doing this, 
+you are telling the browser to use the border box 
+as your defined area.*/
